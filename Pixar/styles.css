@@ -1,0 +1,79 @@
+@font-face {
+    font-family: brandon-reg;
+    src: url(fonts/Brandon_reg.otf);
+  }
+  @font-face {
+    font-family: brandon-g;
+    src: url(/Pixar/fonts/brandon-grotesque-black-58a8a3e824392-webfont.woff);
+  }
+  @font-face {
+    font-family: futura-pt;
+    src: url(fonts/FuturaPTLightOblique.otf);
+  }
+
+  *{
+    margin:0;
+    padding: 0;
+    background-origin: padding-box;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+  }
+  
+
+ 
+  header{
+    max-width: "400px";
+    margin:auto;
+    padding: 38px 118px;
+  }
+  .pic{
+    float: left;
+    margin-left:142px;
+    margin-top: 80px;
+  }
+  main{
+    float: right;
+    max-width: 960px;
+    margin-top: 225px;
+    padding-right: 150px;
+    padding: 8px,0px,0px,0px;
+    width: 60%;
+    text-align:center ;
+   
+  }
+ main h1 {
+    font-family: brandon-g;
+    font-size: 50px;
+    letter-spacing: 0.9rem;
+    line-height: 2em;
+  }
+main p{
+    font-family: futura-pt;
+    font-size: 22px;
+    line-height: 2em;
+    font-weight: 700;
+   padding: 30px 0px;
+    
+}
+.clr{
+    clear:both;
+}
+.media{
+    margin-top: 90px;
+    text-align: center;
+    letter-spacing: 0.5em;
+    
+    
+  }
+  footer{
+    margin-top: 90px;
+    font-family: brandon-reg;
+    font-weight: lighter;
+    font-size: 14px;
+    line-height: 2em;
+    text-align: center;
+    letter-spacing: 0.2em;
+  }
